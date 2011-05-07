@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Webserver' target in the 'Webserver' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
