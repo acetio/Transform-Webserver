@@ -116,6 +116,10 @@
 
 #endif
 
+#ifndef DEBUG
+#define DEBUG
+#endif
+
 /*
 // Uncomment for quick temporary test to see if it builds for older OS targets
 #undef IS_GCD_AVAILABLE

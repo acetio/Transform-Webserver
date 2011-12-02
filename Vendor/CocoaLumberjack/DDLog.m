@@ -124,7 +124,7 @@ typedef struct LoggerNode LoggerNode;
 		{
 		#if GCD_MAYBE_AVAILABLE
 			
-			NSLogDebug(@"DDLog: Using grand central dispatch");
+			//NSLogDebug(@"DDLog: Using grand central dispatch");
 			
 			loggingQueue = dispatch_queue_create("cocoa.lumberjack", NULL);
 			loggingGroup = dispatch_group_create();
@@ -147,7 +147,7 @@ typedef struct LoggerNode LoggerNode;
 			
 			numProcessors = MAX(result, one);
 			
-			NSLogDebug(@"DDLog: numProcessors = %u", numProcessors);
+			//NSLogDebug(@"DDLog: numProcessors = %u", numProcessors);
 			
 		#endif
 		}
