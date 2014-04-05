@@ -1,9 +1,17 @@
 #import <Foundation/Foundation.h>
+#import "HTTPMessage.h"
+#import "HTTPResponse.h"
+#import "HTTPAuthenticationRequest.h"
+#import "DDNumber.h"
+#import "DDRange.h"
+#import "DDData.h"
+#import "HTTPFileResponse.h"
+#import "HTTPAsyncFileResponse.h"
+#import "WebSocket.h"
+#import "HTTPLogging.h"
+#import "GCDAsyncSocket.h"
+#import "HTTPServer.h"
 
-@class GCDAsyncSocket;
-@class HTTPMessage;
-@class HTTPServer;
-@class WebSocket;
 @protocol HTTPResponse;
 
 
